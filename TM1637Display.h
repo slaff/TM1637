@@ -60,9 +60,9 @@ public:
   //! @param pos The position from which to start the modification (0 - leftmost, 3 - rightmost)
   void setSegments(const uint8_t segments[], uint8_t length = 4, uint8_t pos = 0);
 
-  //! Displayes a decimal number
+  //! Displays a decimal number
   //!
-  //! Dispalyes the given argument as a decimal number
+  //! Dispalys the given argument as a decimal number
   //!
   //! @param num The number to be shown
   //! @param leading_zero When true, leading zeros are displayed. Otherwise unnecessary digits are
@@ -73,7 +73,7 @@ public:
   //! @param pos The position most significant digit (0 - leftmost, 3 - rightmost)
   void showNumberDec(int num, bool leading_zero = false, uint8_t length = 4, uint8_t pos = 0);
 
-  //! Displayes a decimal number, with dot control
+  //! Displays a decimal number, with dot control
   //!
   //! Dispalyes the given argument as a decimal number. The dots between the digits (or colon)
   //! can be individually controlled
